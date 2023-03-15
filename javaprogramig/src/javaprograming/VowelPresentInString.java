@@ -17,7 +17,7 @@ public class VowelPresentInString {
 			 if(v.indexOf(ch)>=0) {
 				 count++;
 			 }
-			
+			 
 		 }
 		 System.out.println(count);
 	}
