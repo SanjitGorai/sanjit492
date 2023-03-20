@@ -12,7 +12,7 @@ public class PatternDiamond {
 		for(int i=1;i<=n;i++) {            //for line
 			
 			for(int j=1;j<=space;j++) {    //for space
-				System.out.print("");
+				System.out.print(" ");
 			}
 			
 			for(int j=1;j<=star;j++ ) {
