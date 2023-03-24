@@ -10,14 +10,19 @@ public class FactorialNumbber {
 	/*	for(int i=1;i<=num;i++)
 		{
 			factorial=factorial*i;
-		} */
+		} 
 		
 		for(int i=num;i>=1;i--) 
 		{
 			factorial=factorial*i;
 		}
+		System.out.println(num+ " factorial is  "+factorial); */
+		int i=1;
+		while(num>=i) {
+			factorial=factorial*i;
+			i++;
+		}
 		System.out.println(num+ " factorial is  "+factorial);
-
 	}
 
 }
