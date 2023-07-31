@@ -3,22 +3,20 @@ package javaprograming;
 public class DuplicateelementInArray {
 
 	public static void main(String[] args) {
-		String arr[]= {"java","c","python","java"};
-		boolean flag=false;
+		int arr[]= {2,2,2,2,2,3,3,6,3,3,6,6,8,8,8,9,3,5,5,5};
 		
 		for(int i=0;i<arr.length;i++) {
 			for(int j=i+1;j<arr.length;j++) {
 				if(arr[i]==arr[j]) {
-					System.out.println("Found Duplicate Element "
-							+ ""+arr[i]);
-					flag=true;
+					arr[i]=0;
 				}
 			}
 		}
-		if(flag==false) {
-			System.out.println(" not Found Duplicate Element");
+    for (int i = 0; i < arr.length; i++) {
+		if(arr[i]!=0) {
+			System.out.print(arr[i]+",");
 		}
-
+	}
 	}
 
 }

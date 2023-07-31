@@ -1,4 +1,4 @@
-package javaprograming;
+ package javaprograming;
 
 public class CountEvenAndOddDigits {
 

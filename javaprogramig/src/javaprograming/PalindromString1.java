@@ -6,7 +6,7 @@ public class PalindromString1 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);  
 		System.out.println("enter a string");
 		 String str = sc.nextLine();
 		 String org_str = str;
