@@ -3,7 +3,7 @@ package javaprograming2;
 public class RemoveDuplicateElementInString {
 
 	public static void main(String[] args) {
-		String str="nimdih";
+		String str="sasajitt";
 		char ch[]=str.toCharArray();
 		int count=0;
 		for(int i=0;i<ch.length;i++) {
