@@ -6,7 +6,6 @@ public class ArmStrongNumber {
 
 	public static void main(String[] args) {
 			int n,r,arm=0;
-			
 			Scanner sc=new Scanner(System.in);	
 			System.out.println("Enter The Number");
 			n=sc.nextInt();
