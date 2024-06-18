@@ -4,14 +4,15 @@ public class RevserseStrig {
 
 	public static void main(String[] args) {
 		
-		String str="nishant";
-		String rev="";
-		for (int i = 0; i < str.length(); i++) {
-			rev=str.charAt(i)+rev;
-			
+		String str="my name is sanjit gorai";
+		String str1 = str.replaceAll("\\s", "");
+		String []rev=str1.split("");
+		
+		for (int i=rev.length-1;i>=0;i--) {
+			System.out.print(rev[i]+"");	
 			
 		}
-		System.out.println(rev);
+		
 		
 	}
 

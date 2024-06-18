@@ -2,7 +2,7 @@ package javaprograming;
 
 import java.util.Scanner;
 
-public class VowelPresentInString {
+public  class VowelPresentInString {
 
 	public static void main(String[] args) {
 		

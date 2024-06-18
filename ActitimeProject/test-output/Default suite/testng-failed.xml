@@ -8,8 +8,8 @@
           <include name="setUpClass"/>
           <include name="closeReport"/>
           <include name="ReportConfig"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- testNgOption.TestRunner -->
     </classes>

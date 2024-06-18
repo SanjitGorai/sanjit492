@@ -3,7 +3,7 @@ package javaprograming1;
 public class DuplicateElementInString {
 
 	public static void main(String[] args) {
-		String str="Great responsibility";
+		String str="Great responsibilityr";
 		char ch[]=str.toCharArray();
 		int count=0;
 		for (int i = 0; i < ch.length; i++) {

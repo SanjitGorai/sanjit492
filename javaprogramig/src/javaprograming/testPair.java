@@ -14,7 +14,7 @@ public class testPair {
 				if(a[i]+a[j]==90) {
 					pair=true;
 
-					System.out.println(a[i]+" and "+a[j]+" is in pair " );
+					System.out.println(a[i]+" and "+a[j]+" is in pair "+pair );
 				}
 			}
 		}
